@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>FOODBLOG</title>
+</head>
+<body id="food">
+  <h1 id="heading">FlavorVista</h1>
+  <div class="navy"></div>
+  <div class="mainimg">
+    <p>Indulge in a culinary journey where every dish narrates a tale of flavor sophistication. Our food blog is a gastronomic haven, meticulously curating an opulent fusion of tastes and textures. Elevate your dining experience with our tantalizing recipes, expertly crafted to enchant your palate and redefine the art of gastronomy. Welcome to a world where every bite is an exquisite adventure.</p>
+    <div class="wood-container">
+      
+      <div class="user-form" id="form">
+        <div class="search-inputs">
+            <input type="text" id="search" placeholder="Search">   
+        </div>
+    <img src="search.png" alt="Search Button" id="search-button">
+    </div>
+    </div>
+  </div>
+
+  <div class="random" id="random-meal">
+    <h2>Our best dishes only for you!!!!</h2>
+    <div class="meal-info">
+      <h3 id="meal-name1"></h3>
+    </div>
+  </div>
+  <div class="related-meals" id="related-meals"></div>
+  
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeModal()">&times;</span>
+      <h2 id="modal-title"></h2>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  
+</body>
+<script src="main.js"></script>
+</html>
